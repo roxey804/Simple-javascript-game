@@ -1,5 +1,5 @@
  body {font-family: 'Ubuntu', sans-serif;
-background-color: teal;}
+background-color: #21A095;}
 
 
 button {color: white;
@@ -10,17 +10,14 @@ button:active { background-color: pink;}
 .heading  .row {margin-left: 150px;}
 #enter {margin-left: -120px;}
 
-/* Not working */
-/* #rock button{background-color: green;}
-#paper button {background-color: green;}
-#scissors button {background-color: green;} */
 
  .heading {border: solid;
  text-align: center;
  width: 65%;
  margin: 0 auto;
 margin-bottom: 5px;
-background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");}
+background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+background-size: cover;}
 
 #enter {font-weight: bold; color:purple; font-size: 20px;}
 #enter:hover {color: red; background-color: yellow; cursor: pointer;}
