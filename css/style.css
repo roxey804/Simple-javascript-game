@@ -17,6 +17,30 @@ button:active { background-color: pink;}
 
 #enter {animation: blink 0.5s step-end infinite alternate;}
 
+/* image animation */
+
+@keyframes blink2 {
+  0% {background-color: yellow; border-radius: 20%;}
+  50% {background-color: #21A095; opacity: 0.2;}
+
+}
+@keyframes blink3 {
+  0% {background-color: white; border-radius: 20%;}
+  50% {background-color: #21A095; opacity: 0.2;}
+
+}
+@keyframes blink4 {
+  0% {background-color: red; border-radius: 20%;}
+  50% {background-color: #21A095; opacity: 0.2;}
+
+}
+
+#rk {animation: blink2 1s step-end infinite alternate;}
+#pp {animation: blink3 1s step-end infinite alternate;}
+#sc {animation: blink4 1s step-end infinite alternate;}
+
+/* end image animation  */
+
 
  .heading {border: solid;
  text-align: center;
