@@ -117,3 +117,11 @@ function score(verdict) {
   EVERYONE LIVED HAPPILY EVER AFTER.
   */
 }
+$("#enter").click(function(){
+      $("#main").fadeIn();
+      $("#enter").hide();
+  });
+  $("button").click(function(){
+        $("button").css('color','white');
+        $(this).css('color','red');
+    });
