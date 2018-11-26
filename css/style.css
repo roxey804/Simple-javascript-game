@@ -1,0 +1,41 @@
+ body {font-family: 'Ubuntu', sans-serif;}
+
+
+button {color: white;
+background-color: navy;}
+button:hover {background-color: pink; color:black;}
+button:active { background-color: pink;}
+
+
+/* Not working */
+/* #rock button{background-color: green;}
+#paper button {background-color: green;}
+#scissors button {background-color: green;} */
+
+ .heading {border: solid;
+ text-align: center;
+ width: 65%;
+ margin: 0 auto;
+margin-bottom: 5px;
+background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");}
+
+#enter {font-weight: bold; color:purple; font-size: 20px;}
+#enter:hover {color: red; background-color: yellow; cursor: pointer;}
+
+.main {display: none;}
+/* This hides the main bit before click */
+
+ .moves {border: solid;
+ text-align: center;
+ width: 65%; margin:0 auto;
+   margin-bottom: 5px;
+background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=abstract-art-artistic-1103970.jpg&fm=jpg")
+}
+
+
+
+.result {border: solid;
+text-align: center;
+width: 65%;
+margin: 0 auto;
+background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=abstract-art-artistic-1103970.jpg&fm=jpg")}

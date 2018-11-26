@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+
+<head>
+
+<link rel="stylesheet" a href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
+<title>Rock Paper Scissors</title>
+
+
+
+</head>
+
+
+<body>
+
+<section class="heading">
+<div class ="container">
+  <div class="row">
+    <div class="three columns">
+      <img src="images/rock.png">
+      <h3>Paper</h3>
+    </div>
+    <div class="three columns">
+      <img src="images/paper.png">
+      <h3>Rock</h3>
+    </div>
+    <div class="three columns">
+      <img src="images/scissors.png">
+      <h3>Scissors</h3>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+<div class="row">
+  <div class="u-full-width">
+    <a id="enter">Click to Play</a>
+  </div></div></div>
+  </section>
+
+
+<div class="main" id="main">
+
+  <section class="moves">
+  <div class="container">
+<div class="row">
+  <div class="u-full-width">
+    <h3>Your move: <span
+
+id="play_you"></span></h3>
+<button id="rock" value="rock">Rock</button>
+    <button id="paper" value="paper">Paper</button>
+    <button id="scissors" value="scissors">Scissors</button>
+  </div></div></div>
+
+
+
+
+
+
+
+
+<h3>Machine move: <span
+
+id="play_machine"></span></h3>
+
+    </section>
+
+
+<section class="result">
+        <h2>Result</h2>
+        <h3>Verdict: <span
+
+id="verdict"></span></h3>
+        <p>Won: <span
+
+id="game_won">0</span></p>
+        <p>Lost: <span
+
+id="game_lost">0</span></p>
+        <p>Draw: <span
+
+id="game_draw">0</span></p>
+        <p>Played: <span
+
+id="game_played">0</span></p>
+    </section>
+</div>
+<!-- End of MAIN div -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
+  //
+  // $("#main").fadeOut();
+  $("#enter").click(function(){
+        $("#main").fadeIn();
+    });
+
+
+</script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
