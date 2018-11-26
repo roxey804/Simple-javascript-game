@@ -2,10 +2,12 @@
 
 
 button {color: white;
-background-color: navy;}
+background-color: navy; }
 button:hover {background-color: pink; color:black;}
 button:active { background-color: pink;}
 
+.heading  .row {margin-left: 150px;}
+#enter {margin-left: -120px;}
 
 /* Not working */
 /* #rock button{background-color: green;}

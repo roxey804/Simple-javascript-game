@@ -25,11 +25,11 @@
   <div class="row">
     <div class="three columns">
       <img src="images/rock.png">
-      <h3>Paper</h3>
+      <h3>Rock</h3>
     </div>
     <div class="three columns">
       <img src="images/paper.png">
-      <h3>Rock</h3>
+      <h3>Paper</h3>
     </div>
     <div class="three columns">
       <img src="images/scissors.png">
@@ -98,11 +98,15 @@ id="game_played">0</span></p>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>
-  //
-  // $("#main").fadeOut();
+
   $("#enter").click(function(){
-        $("#main").fadeIn();
+        $("#main").slideDown();
+        $("#enter").hide();
     });
+    $("button").click(function(){
+          $("button").css('color','white');
+          $(this).css('color','red');
+      });
 
 
 </script>
