@@ -117,6 +117,8 @@ function score(verdict) {
   EVERYONE LIVED HAPPILY EVER AFTER.
   */
 }
+
+
 $("#enter").click(function(){
       $("#main").fadeIn();
       $("#enter").hide();

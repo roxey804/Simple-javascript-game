@@ -10,6 +10,13 @@ button:active { background-color: pink;}
 .heading  .row {margin-left: 150px;}
 #enter {margin-left: -120px;}
 
+@keyframes blink {
+
+  50% {background-color: yellow;}
+}
+
+#enter {animation: blink 0.5s step-end infinite alternate;}
+
 
  .heading {border: solid;
  text-align: center;
@@ -20,7 +27,7 @@ background-image: url("https://images.pexels.com/photos/255379/pexels-photo-2553
 background-size: cover;}
 
 #enter {font-weight: bold; color:purple; font-size: 20px;}
-#enter:hover {color: red; background-color: yellow; cursor: pointer;}
+#enter:hover {color: red; background-color: navy; cursor: pointer;}
 
 .main {display: none;}
 /* This hides the main bit before click */
