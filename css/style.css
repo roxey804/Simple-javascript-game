@@ -1,4 +1,4 @@
- body {font-family: 'Ubuntu', sans-serif;}
+ body {font-family: 'Ubuntu', sans-serif; background-color: teal;}
 
 
 button {color: white;
@@ -9,10 +9,6 @@ button:active { background-color: pink;}
 .heading  .row {margin-left: 150px;}
 #enter {margin-left: -120px;}
 
-/* Not working */
-/* #rock button{background-color: green;}
-#paper button {background-color: green;}
-#scissors button {background-color: green;} */
 
  .heading {border: solid;
  text-align: center;
