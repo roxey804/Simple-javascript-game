@@ -8,14 +8,7 @@ button:hover {background-color: pink; color:black;}
 button:active { background-color: pink;}
 
 .heading  .row {margin-left: 150px;}
-#enter {margin-left: -120px;}
 
-@keyframes blink {
-
-  50% {background-color: yellow;}
-}
-
-#enter {animation: blink 0.5s step-end infinite alternate;}
 
 /* image animation */
 
@@ -50,7 +43,17 @@ margin-bottom: 5px;
 background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 background-size: cover;}
 
-#enter {font-weight: bold; color:purple; font-size: 20px;}
+
+/* Click to pay animation  */
+@keyframes blink {
+
+  50% {background-color: yellow;}
+}
+
+
+#enter {font-weight: bold; color:purple; font-size: 20px;margin-left: -120px;
+animation: blink 0.5s step-end infinite alternate;}
+
 #enter:hover {color: red; background-color: navy; cursor: pointer;}
 
 .main {display: none;}
@@ -62,7 +65,6 @@ background-size: cover;}
    margin-bottom: 5px;
 background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=abstract-art-artistic-1103970.jpg&fm=jpg")
 }
-
 
 
 .result {border: solid;
